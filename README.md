@@ -17,8 +17,8 @@ This project demonstrates a crucial aspect of software data security: **cryptogr
 
 ## How to Run
 
-1.  **Download the `index.html` file.**
-2.  **Open the `index.html` file in any modern web browser** 
+1.  **Download the `Tool.html` file.**
+2.  **Open the `Tool.html` file in any modern web browser** 
 
 ## How to Use the Demo
 
