@@ -2,8 +2,6 @@ This is a sample document for testing the Secure File Encryptor.
 
 If you can read this, the file is in its original, decrypted state.
 
-Use the tool (index.html) to encrypt this file with a password. After encryption, you will download a file named "test-document.txt.encrypted". This new file should contain garbled, unreadable text.
+Use the tool (Tool.html) to encrypt this file with a password. After encryption, you will download a file named "demo.txt.encrypted". This new file should contain encrypted, unreadable text.
 
-Then, use the tool again to decrypt "test-document.txt.encrypted" with the same password. The result should be this original document, perfectly restored.
-
-This process demonstrates that the encryption and decryption cycle works correctly.
+Then, use the tool again to decrypt "demo.txt.encrypted" with the same password. The result should be this original document.
