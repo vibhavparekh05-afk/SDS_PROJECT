@@ -2,13 +2,13 @@
 
 ## Description
 
-This project is a fully client-side tool for encrypting and decrypting files using strong, modern cryptographic standards. The entire process happens locally in the user's web browser, meaning **no files are ever uploaded to a server**, ensuring complete privacy.
+This project is a fully client-side tool for encrypting and decrypting files using strong, modern cryptographic standards. The entire process happens locally in the user's web browser, hence **no files are ever uploaded to a server**, which increases privacy.
 
 The tool allows a user to select a file, provide a password, and generate a securely encrypted version of that file for safe storage or transmission. It can then decrypt the file back to its original state ONLY using the password that was provided while encrypting.
 
-This project demonstrates a crucial aspect of software data security: **cryptography and data protection**.
+This project shows a crucial aspect of software data security: **cryptography and data protection**.
 
-### Security Concepts Demonstrated
+### Security Concepts Used
 
 * **Client-Side Encryption:** All cryptographic operations are performed on the user's machine, using the built-in and secure **Web Crypto API** (`SubtleCrypto`). This provides a high level of privacy.
 * **AES-GCM Authenticated Encryption:** The tool uses AES-GCM, a modern and highly secure symmetric encryption algorithm. The "GCM" (Galois/Counter Mode) part is critical as it provides **authenticated encryption**, which not only ensures confidentiality (secrecy) but also **integrity and authenticity**, protecting the data against tampering.
