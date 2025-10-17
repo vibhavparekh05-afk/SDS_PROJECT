@@ -10,7 +10,7 @@ This project demonstrates a crucial aspect of software data security: **cryptogr
 
 ### Security Concepts Demonstrated
 
-* **Client-Side Encryption:** All cryptographic operations are performed on the user's machine, leveraging the built-in and secure **Web Crypto API** (`SubtleCrypto`). This provides a high level of privacy.
+* **Client-Side Encryption:** All cryptographic operations are performed on the user's machine, using the built-in and secure **Web Crypto API** (`SubtleCrypto`). This provides a high level of privacy.
 * **AES-GCM Authenticated Encryption:** The tool uses AES-GCM, a modern and highly secure symmetric encryption algorithm. The "GCM" (Galois/Counter Mode) part is critical as it provides **authenticated encryption**, which not only ensures confidentiality (secrecy) but also **integrity and authenticity**, protecting the data against tampering.
 * **PBKDF2 Key Derivation:** User passwords are not used directly as encryption keys. Instead, the tool uses the **PBKDF2** (Password-Based Key Derivation Function 2) algorithm. This function takes a low-entropy password and "stretches" it through thousands of rounds of hashing to produce a strong, high-entropy cryptographic key, making it resistant to brute-force attacks.
 * **Cryptographically Secure Randomness:** The initialization vector (IV) and the salt for PBKDF2 are generated using `crypto.getRandomValues()`, which is a cryptographically secure random number generator provided by the browser.
